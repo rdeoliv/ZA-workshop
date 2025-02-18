@@ -61,7 +61,7 @@ This is a [video](https://www.confluent.io/resources/demo/shift-left-dsp-demo/) 
 
 > Estimated time: 25 mins
 
-1. Clone the repo onto your local development machine using `git clone https://github.com/confluentinc/online-retailer-flink-demo`.
+1. Clone the repo onto your local development machine using `git clone https://github.com/rdeoliv/online-retailer-flink-demo`.
 2. Change directory to demo repository and terraform directory.
 
 ```
