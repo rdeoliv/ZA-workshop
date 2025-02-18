@@ -48,14 +48,15 @@ This is a [video](https://www.confluent.io/resources/demo/shift-left-dsp-demo/) 
 
 ## General Requirements
 
+* **Confluent Account** -  Sign-up to Confluent Cloud [here](https://confluent.cloud/signup).
 * **Confluent Cloud API Keys** - [Cloud resource management API Keys](https://docs.confluent.io/cloud/current/security/authenticate/workload-identities/service-accounts/api-keys/overview.html#resource-scopes) with Organisation Admin permissions are needed by Terraform to deploy the necessary Confluent resources.
 * **Terraform (v1.9.5+)** - The demo resources is automatically created using [Terraform](https://www.terraform.io). Besides having Terraform installed locally, will need to provide your cloud provider credentials so Terraform can create and manage the resources for you.
 * **AWS account** - This demo runs on AWS
-* **Snowflake Account** -  Sign-up to Snowflake [here](https://signup.snowflake.com/).
 * **AWS CLI** - Terraform script uses AWS CLI to manage AWS resources
-* **Docker** - Make sure is Docker installed locally. If not installed, follow [this](https://docs.docker.com/desktop/)
+* **Docker** - Make sure is Docker installed and running locally. If not installed, follow [this](https://docs.docker.com/desktop/)
 * **PSQL** - Make sure is psql is installed locally.
 * **Unix machine** - The Terraform script requires a Unix environment. If you're using a Windows machine, consider deploying an EC2 instance with CentOS and run the deployment steps from there.
+* [Optional] **Snowflake Account** -  Sign-up to Snowflake [here](https://signup.snowflake.com/).
 
 ## Setup
 
