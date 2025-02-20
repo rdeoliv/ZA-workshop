@@ -49,6 +49,7 @@ This is a [video](https://www.confluent.io/resources/demo/shift-left-dsp-demo/) 
 ## General Requirements
 
 * **Confluent Account** -  Sign-up to Confluent Cloud [here](https://confluent.cloud/signup).
+* **Confluent Promo code** - Go to [payment]https://confluent.cloud/settings/billing/payment and add this promo code: ```POPTOUT000WNR1K```
 * **Confluent Cloud API Keys** - [Cloud resource management API Keys](https://docs.confluent.io/cloud/current/security/authenticate/workload-identities/service-accounts/api-keys/overview.html#resource-scopes) with Organisation Admin permissions are needed by Terraform to deploy the necessary Confluent resources.
 * **Terraform (v1.9.5+)** - The demo resources is automatically created using [Terraform](https://www.terraform.io). Besides having Terraform installed locally, will need to provide your cloud provider credentials so Terraform can create and manage the resources for you.
 * **AWS account** - This demo runs on AWS
